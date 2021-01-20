@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Karu aastaajad</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="assets/js/sonamang2.js"></script>
+</head>
+
+<body>
+  <div class="aligner">
+    <div class="textBox2">
+      <h3>Karu aastaajad</h3>
+      <p>
+        Aseta numbrid õigetele kohtadele, luuletuse ridade juurde.
+      </p>
+      <img class="numbrid" id="yks" src="assets/images/yks.jpg" height="75px" draggable="true" ondragstart="dragThis(event)">
+      <br />
+      <img class="numbrid" id="kaks" src="assets/images/kaks.jpg" height="75x" draggable="true" ondragstart="dragThis(event)">
+      <br />
+      <img class="numbrid" id="kolm" src="assets/images/kolm.jpg" height="75px" draggable="true" ondragstart="dragThis(event)">
+      <br />
+      <img class="numbrid" id="neli" src="assets/images/neli.jpg" height="75px" draggable="true" ondragstart="dragThis(event)">
+    </div>
+  </div>
+  <div class="gameBox2">
+    <div class="container">
+      <h2>KARU AASTAAJAD</h2>
+      <div class="row">
+        <div class="kaks" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+        </div>
+        <h3>Sügisel ta ringi luusib.</h3>
+      </div>
+      <div class="row">
+        <div class="neli" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+        </div>
+        <h3>et siis kevadel tunda värsket õhku.</h3>
+      </div>
+      <div class="row">
+        <div class="kolm" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+        </div>
+        <h3>Talveks poeb ta sügavale põhku,</h3>
+      </div>
+      <div class="row">
+        <div class="yks" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+        </div>
+        <h3>Suvel karu marju nosib.</h3>
+      </div>
+    </div>
+  </div>
+  <div class="popup_box">
+    <img src="assets/images/paber.png" />
+    <div class="btns">
+      <a href="sonamangLopp.html" class="btn2">Viimane ülesanne</a>
+    </div>
+  </div>
+</body>
+
+</html>

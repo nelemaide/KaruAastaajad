@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Karu aastaajad</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="assets/js/sonamang.js"></script>
+</head>
+
+<body>
+  <div class="aligner">
+    <div class="textBox1">
+      <h3>Karu aastaajad</h3>
+      <p>Aseta aastaajad õigetele kohtadele, karu pildikeste juurde, õige vastuse korral, karu pilt vahetub aastaaja tähega ning tuleb nähtavale luuletuse salmiosa.</p>
+      <img id="kevad" src="assets/images/kevadimg.png" height="30px" draggable="true" ondragstart="dragThis(event)">
+      <br /><br />
+      <img id="sygis" src="assets/images/sygisimg.png" height="30px" draggable="true" ondragstart="dragThis(event)">
+      <br /><br />
+      <img id="suvi" src="assets/images/suviimg.png" height="30px" draggable="true" ondragstart="dragThis(event)">
+      <br /><br />
+      <img id="talv" src="assets/images/talvimg.png" height="30px" draggable="true" ondragstart="dragThis(event)">
+    </div>
+  </div>
+  <div class="gameBox1">
+    <div class="container">
+      <div class="row">
+        <div class="card col-sm">
+          <div class="kevad" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          </div>
+          <img id="spring" src="assets/images/kevad.jpg" class="card-img-top" alt="..." class="seasonWidth">
+        </div>
+        <div class="card col-sm">
+          <div class="suvi" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          </div>
+          <img id="summer" src="assets/images/suvi.jpg" class="card-img-top" alt="..." class="seasonWidth">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="card col-sm">
+          <div class="sygis" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          </div>
+          <img id="autumn" src="assets/images/sygis.jpg" class="card-img-top" alt="..." class="seasonWidth">
+        </div>
+        <div class="card col-sm">
+          <div class="talv" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+          </div>
+          <img id="winter" src="assets/images/talv.jpg" class="card-img-top" alt="..." class="seasonWidth">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popup_box">
+    <img src="assets/images/paber.png" />
+    <div class="btns">
+      <a href="sonamang2.html" class="btn2">Järgmine ülesanne</a>
+    </div>
+  </div>
+</body>
+
+</html>
